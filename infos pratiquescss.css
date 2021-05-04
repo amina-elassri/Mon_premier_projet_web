@@ -1,0 +1,216 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+/****************************************** header ************************************/
+header{
+  width:100%;
+  height: 80px;
+  background-color: #101010;
+
+}
+img{
+  max-width:  100px;
+}
+
+.middle_header{
+  width:1000px;
+  height: 100%;
+  margin: auto;
+
+}
+.logo_container{
+  display: table;
+  float: left;
+
+}
+span{
+     color: white;
+     display: table-cell;
+     vertical-align: middle;
+     font-family: 'comic sans ms';
+     font-size: 32px;
+    
+}
+.navigation a:hover{
+  color:rgb(59, 57, 55);
+}
+.navigation{
+  float: right;
+  height: 100%;
+  
+}
+.navigation a{
+  height: 100%;
+  display: table;
+  padding: 0px 15px;
+  color: white;
+  font-size: 16px;
+}
+.navigation li{
+  display: inline-block;
+  margin-top: 40px;
+  font-family:  'consolas';
+}
+
+
+
+.nav {
+  height:90px;
+  width:100%;
+  background-color:rgb(59, 57, 55);
+
+}
+.nav ul{
+  padding: 10px;
+  margin-left: 400px;
+}
+.nav li {
+  display: inline-block;
+  margin:0px; 
+  padding:0px;
+  width: 100px;
+  height: 50px;
+  border-right: 1px solid rgb(134, 235, 144) ;
+  text-align: center;
+  line-height: 20px;
+}
+.cent li{
+  float: left;
+  line-height:25px;
+  padding:0 10px;
+}
+.nav a:hover{
+  color: black;
+  
+}
+.nav li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: 'lusida sans';
+} 
+
+.nav .me{
+  color: rgb(134, 235, 144);
+}
+header .middle_header .navigation .menu-s {
+  border-radius: 20px;
+  border-width: 20px;
+  background-color: rgb(134, 235, 144);
+  
+}
+
+
+
+  
+
+/**************************************************** body *************************************/
+.indent{
+  text-indent: 40px;
+}
+
+.ind{
+  margin-left: 60px;
+}
+body{
+  background-color: white;
+}
+.ligne-simple{
+  margin-top: 10px;
+}
+
+p{  
+margin-top: 10px;
+font-size:1em;
+text-indent: 20px;
+text-align:justify; 
+} 
+
+.para{
+  margin-top: 60px;
+  font-size:1.30em;
+}
+.para1{
+  font-size:1.5em;
+}
+  .brand{ 
+  margin-top: 40px;
+  text-decoration: none;
+  font-family: "comic sans ms";
+  font-size: 30px;
+
+}
+h5{
+  color: black;
+  font-family: 'arial';
+  text-align: center;
+  margin-right: 50px; 
+  margin-top: 10px;
+}
+
+.container{
+  margin: 0px 100px 0px 100px;
+  padding: 40px 100px;
+  height: 1000px;
+  background-color: rgb(134, 235, 144);
+
+}
+
+/**************************************************** footer *******************************************/
+footer{
+  background:black;
+  height: 350px;
+  margin-top: 3px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+
+}
+
+.col{
+  display: inline-block;
+  /*top right bottom left*/
+  margin: 30px 0px 100px 0px  ;
+  padding: 10px;
+  
+}
+.separator{
+  width: 50px;
+  margin-left: 0px;
+
+}
+
+
+footer h2{
+  color: rgb(134, 235, 144);
+}
+footer a{
+  color: #ffffff;
+  margin-left: 0px;
+  font-family: "comic sans ms";
+
+}
+footer a:hover{
+  color:grey; 
+}
+footer p{
+  text-align: left; 
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer .devloper{
+  color:rgb(134, 235, 144);
+  text-align: right;
+  text-transform: none;
+  font-weight: normal;
+  margin-right: 50px;
+  font-style: italic;
+
+
+}
+

@@ -1,0 +1,209 @@
+
+/********************************/
+/**** 1 cm = 37.79527559055 pixel   ****/
+*{
+	margin: 0px ;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+/****************************************** header ************************************/
+header{
+	width:100%;
+	height: 80px;
+	background-color: #101010;
+
+}
+
+
+img{
+	max-width:  100px;
+}
+
+.middle_header{
+	width:1000px;
+	height: 100%;
+	margin: auto;
+}
+
+.logo_container{
+	display: table;/* pour que le logo et l'intitulé ont à la meme ligne */
+	float: left;
+
+}
+span{
+     color: white;
+     display: table-cell;/* pour que le logo et l'intitulé ont à la meme ligne */
+     vertical-align: middle;
+     font-family: 'comic sans ms';
+     font-size: 32px;
+    
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+	
+}
+.navigation a{
+	height: 100%;
+	display: table;
+	padding: 0px 15px;/* on a donner à top et bottom 0px , à right et left 15px   marge intérieur*/ 
+	color: white;
+	font-size: 16px;
+}
+.navigation li{
+	/* block  les uns au-dessus des autres, ils passent à la ligne et forcent le retour à la ligne des éléments qui les suivent ex:div , p, h1 .prendre toutes les margins*/
+	/* inline  les élements sont au meme ligne ex:img, span, a .il prendre le width qui besoin seulement. pour margins il ignore bottom et top et prendre que right et left .dans padding il n'est pas respecter  height and width of an element      */
+	/* inline-block  les elements prendre les propriétes de block et de inline ,ils sont inline et au meme temps prendre les caractérestiques de block*/
+	display: inline-block;
+	margin-top: 40px;
+	font-family: 'consolas';
+}
+
+header .middle_header  .menu-a{
+	background-color:   rgb(66, 245, 176);
+	border-radius: 20px;
+	border-width: 20px;
+	
+}
+
+
+.navigation a:hover{
+	color:rgb(59, 57, 55);
+}
+
+/**************************************************** body *************************************/
+
+
+
+
+
+body{
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	
+}
+
+p{  
+
+font-size:1em;
+text-indent: 20px;
+text-align:justify; /* pour séparer un peu entre les mots de paragraphe  */
+font-style: italic;
+} 
+.para{
+	margin-top: 100px;
+	font-size:1.70em;
+}
+.brand{ 
+	margin-top: 40px;
+	text-decoration: none;
+	font-family: "comic sans ms";
+	font-size: 30px;
+
+}
+
+.container{
+	margin: 0px 100px;
+	padding: 40px 100px;
+	height: 1000px;
+	background-color: rgb(66, 245, 176);
+
+}
+
+
+/************************** slider ********************/
+/********          css3         *******************/
+.slider{
+	
+	width: 38em;
+	height: 400px;
+	margin: auto;/* centrer slider */
+	margin-top: 50px;
+	/*top right bottom left*/
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider 20s infinite ;
+
+    
+ 
+	
+}
+  @keyframes slider{
+	0%{ background-image: url(appweb.jpg);}
+	25%{background-image: url(photoRAMED.png);}
+	50%{background-image: url(ramed.jpg);}
+	75%{background-image: url(ramed22.gif);}
+	100%{background-image: url(carte1.jpg);}
+	
+}
+  @-o-keyframes slider{
+	0%{ background-image: url(appweb.jpg);}
+	25%{background-image: url(photoRAMED.png);}
+	50%{background-image: url(ramed.jpg);}
+	75%{background-image: url(ramed22.gif);}
+	100%{background-image: url(carte1.jpg);}
+	
+}
+  
+
+/**************************************************** footer *******************************************/
+footer{
+	background:black;
+	height: 330px;
+	margin-top: 3px ;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+
+}
+
+.col{
+	display: inline-block;
+	/*top right bottom left*/
+	margin: 30px 0px 100px 0px  ;
+	padding: 10px;
+	
+}
+.separator{
+	width: 50px;
+	margin-left: 0px;
+
+}
+
+
+footer h2{
+	color:rgb(66, 245, 176) ;
+}
+footer a{
+	color: #ffffff;
+	margin-left: 0px;
+	font-family:'comic sans ms';
+
+}
+footer a:hover{
+	color:grey; 
+}
+footer p{
+	
+	color: #ffffff;
+	text-align: left; 
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+footer .devloper{
+    color:rgb(66, 245, 176);
+	text-align: right;
+	text-transform: none;
+	font-weight: normal;
+	margin-right: 50px;
+
+
+}
+
+
+
+
+

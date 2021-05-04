@@ -1,0 +1,206 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+/****************************************** header ************************************/
+header{
+  width:100%;
+  height: 80px;
+  background-color: #101010;
+
+}
+img{
+  max-width:  100px;
+}
+
+.middle_header{
+  width:1000px;
+  height: 100%;
+  margin: auto;
+
+}
+.logo_container{
+  display: table;
+  float: left;
+
+}
+span{
+     color: white;
+     display: table-cell;
+     vertical-align: middle;
+     font-family: 'comic sans ms';
+     font-size: 32px;
+
+
+}
+.navigation a:hover{
+  color:rgb(59, 57, 55);
+}
+.navigation{
+  float: right;
+  height: 100%;
+  
+}
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 15px;
+  color: white;
+  font-size: 16px;
+}
+.navigation li{
+  display: inline-block;
+  margin-top: 40px;
+  font-family:  'consolas';
+}
+
+
+.nav {
+  height:90px;
+  width:100%;
+  background-color:rgb(59, 57, 55);
+
+}
+
+.nav div {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+}
+div .me{
+  color:black;
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-family: 'lusida sans';
+}
+header .middle_header .navigation .menu-s {
+  border-radius: 20px;
+  border-width: 20px;
+  background-color:rgb(240, 169, 149);
+  
+}
+
+
+
+  
+
+/**************************************************** body *************************************/
+
+body{
+  background-color: white;
+}
+.ligne-simple{
+  margin-top: 10px;
+}
+
+p{  
+margin-top: 10px;
+font-size:1em;
+text-indent: 20px;
+text-align:justify; 
+}
+.tele{
+  color: black;
+} 
+.para{
+  margin-top: 40px;
+  font-size:1.50em;
+}
+.para1{
+  font-size:1.5em;
+}
+.brand{ 
+  margin-top: 40px;
+  text-decoration: none;
+  font-family: "comic sans ms";
+  font-size: 30px;
+
+}
+.color{
+
+  color:white;
+  text-decoration: underline;
+}
+.indent{
+
+    
+    text-indent: 40px;
+    list-style-position: inside;
+}
+.ind{
+  margin-left: 60px;
+}
+h5{
+  color: black;
+  font-family: 'arial';
+  text-align: center;
+  margin-right: 50px; 
+  margin-top: 10px;
+}
+
+.container{
+  margin: 0px 100px 0px 100px;
+  padding: 40px 100px;
+  height: 1000px;
+  background-color: rgb(240, 169, 149);
+
+}
+
+/**************************************************** footer *******************************************/
+footer{
+  background:black;
+  height: 350px;
+  margin-top: 3px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+
+}
+
+.col{
+  display: inline-block;
+  /*top right bottom left*/
+  margin: 30px 0px 100px 0px  ;
+  padding: 10px;
+  
+}
+.separator{
+  width: 50px;
+  margin-left: 0px;
+
+}
+
+
+footer h2{
+  color: rgb(240, 169, 149);
+}
+footer a{
+  color: #ffffff;
+  margin-left: 0px;
+  font-family: "comic sans ms";
+
+}
+footer a:hover{
+  color:grey; 
+}
+footer p{ 
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+footer .devloper{
+  color:rgb(240, 169, 149);
+  text-align: right;
+  text-transform: none;
+  font-weight: normal;
+  margin-right: 50px;
+  font-style: italic;
+
+
+}
+
